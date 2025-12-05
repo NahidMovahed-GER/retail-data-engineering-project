@@ -99,6 +99,7 @@ Hilft bei Validierung und Analysen.
 
 
 **4.3 invoices**
+
 Eine Rechnung pro Zeile.  
 Rechnungskopf.  
 Eine Bestellung = eine Rechnung.
@@ -125,6 +126,7 @@ Hier liegt der Umsatz.
 
 
 **4.5 dim_date**
+
 Kalenderdimension.
 Erlaubt Zeitanalysen (Monat, Woche, Quartal).  
 Eine Datumstabelle, erzeugt mit `generate_series`, damit man später leichter nach Monat, Woche, Quartal usw. filtern kann.
