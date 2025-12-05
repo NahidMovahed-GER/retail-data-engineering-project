@@ -99,9 +99,8 @@ Hilft bei Validierung und Analysen.
 
 
 **4.3 invoices**
-
-Eine Rechnung pro Zeile.
-Rechnungskopf.
+Eine Rechnung pro Zeile.  
+Rechnungskopf.  
 Eine Bestellung = eine Rechnung.
 
 | Spalte      | Beschreibung            |
@@ -112,8 +111,8 @@ Eine Bestellung = eine Rechnung.
 
 **4.4 invoice_lines**
 
-Hier stehen alle Bestellpositionen.
-Rechnungspositionen = einzelne Produkte in der Rechnung.
+Hier stehen alle Bestellpositionen.  
+Rechnungspositionen = einzelne Produkte in der Rechnung.  
 Hier liegt der Umsatz.
 
 | Spalte      | Beschreibung         |
@@ -127,7 +126,7 @@ Hier liegt der Umsatz.
 
 **4.5 dim_date**
 Kalenderdimension.
-Erlaubt Zeitanalysen (Monat, Woche, Quartal).
+Erlaubt Zeitanalysen (Monat, Woche, Quartal).  
 Eine Datumstabelle, erzeugt mit `generate_series`, damit man später leichter nach Monat, Woche, Quartal usw. filtern kann.
 
 
