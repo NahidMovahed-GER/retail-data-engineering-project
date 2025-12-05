@@ -89,7 +89,8 @@ Jeder Kunde erscheint genau einmal.
 
 **4.2 products**
 
-Jeder Produktcode einmal.
+Jeder Produktcode genau einmal.
+Hilft bei Validierung und Analysen.
 
 | Spalte      | Beschreibung                     |
 |-------------|----------------------------------|
@@ -100,6 +101,8 @@ Jeder Produktcode einmal.
 **4.3 invoices**
 
 Eine Rechnung pro Zeile.
+Rechnungskopf.
+Eine Bestellung = eine Rechnung.
 
 | Spalte      | Beschreibung            |
 |-------------|-------------------------|
@@ -110,6 +113,8 @@ Eine Rechnung pro Zeile.
 **4.4 invoice_lines**
 
 Hier stehen alle Bestellpositionen.
+Rechnungspositionen = einzelne Produkte in der Rechnung.
+Hier liegt der Umsatz.
 
 | Spalte      | Beschreibung         |
 |-------------|----------------------|
@@ -121,7 +126,8 @@ Hier stehen alle Bestellpositionen.
 
 
 **4.5 dim_date**
-
+Kalenderdimension.
+Erlaubt Zeitanalysen (Monat, Woche, Quartal).
 Eine Datumstabelle, erzeugt mit `generate_series`, damit man später leichter nach Monat, Woche, Quartal usw. filtern kann.
 
 
