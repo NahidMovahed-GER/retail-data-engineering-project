@@ -273,22 +273,25 @@ retail-lab/
 ├── docker-compose.yml
 ├── retail.csv
 ├── README.md
-│   
+│
 ├── sql/
 │   ├── cleaning/
 │   │   ├── clean_customerid.sql
-│   │   └── clean_descriptions.sql
+│   │   ├── clean_descriptions.sql
+│   │   └── 03_products_cleaned.sql          ← wenn du es lieber unter cleaning hattest
 │   │
 │   ├── modeling/
 │   │   └── 02_modeling_core.sql
 │   │
 │   ├── enrichment/
-│   │   └── 03_products_cleaned.sql
+│   │   └── 03_products_cleaned.sql          ← richtiger Platz (Enrichment)
 │   │
 │   └── validation/
 │       └── 04_validation.sql
 │
 └── docs/
     └── validation-screenshots/
+        └── validation-screenshots.pdf
+
 ```
 
