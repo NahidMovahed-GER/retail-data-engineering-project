@@ -89,7 +89,7 @@ Jeder Kunde erscheint genau einmal.
 
 **4.2 products**
 
-Jeder Produktcode genau einmal.
+Jeder Produktcode genau einmal.  
 Hilft bei Validierung und Analysen.
 
 | Spalte      | Beschreibung                     |
@@ -272,7 +272,7 @@ retail-lab/
 ├── docker-compose.yml
 ├── retail.csv
 ├── README.md
-│
+│   
 ├── sql/
 │   ├── cleaning/
 │   │   ├── clean_customerid.sql
