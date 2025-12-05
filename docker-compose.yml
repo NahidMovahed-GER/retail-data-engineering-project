@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:16
+    container_name: postgres_lab
+    environment:
+      POSTGRES_USER: app_user
+      POSTGRES_PASSWORD: secret123
+      POSTGRES_DB: app_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./data:/var/lib/postgresql/data
+      - ./retail.csv:/import/retail.csv:ro
+
+
+

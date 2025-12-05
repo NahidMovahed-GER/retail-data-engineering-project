@@ -1,0 +1,15 @@
+﻿data/
+archive/
+*.zip
+*.log
+*.tmp
+
+# CSV files
+*.csv
+
+# VSCode
+.vscode/
+
+# Windows Müll
+Thumbs.db
+desktop.ini
