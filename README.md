@@ -290,8 +290,7 @@ retail-lab/
 │       └── 04_validation.sql
 │
 └── docs/
-    └── validation-screenshots/
-        └── validation-screenshots.pdf
-
+    └── validation-screenshots.pdf
+      
 ```
 
